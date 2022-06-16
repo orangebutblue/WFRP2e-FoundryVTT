@@ -1,6 +1,6 @@
 <form class="{{cssClass}} limited" autocomplete="off">
 
-  <span id="header-personal-details">Personal Details</span>
+  <span id="configure-actor" style="visibility: hidden;">Personal Details</span>
 
   <header class="sheet-header" ondragstart="return false;" ondrop="return false;">
     <h1 class="charname item">
@@ -9,20 +9,20 @@
     </h1>
   </header>
 
-  <section class="general" ondragstart="return false;" ondrop="return false;">
+  <section class="general limited" ondragstart="return false;" ondrop="return false;">
     <img class="charimg" src="{{actor.img}}" title="{{actor.name}}" height="95" width="95" data-edit="img">
     <div class="items">
       <div class="characteristics">
         <div class="characteristics-table" cellpadding="0">
           <!-- <div class="table-header"> -->
-            {{#each actor.data.characteristics as |ch c|}}
+            {{#each data.characteristics as |ch c|}}
             <div title="{{localize ch.label}}" data-char="{{ch}}" class="table-header">
               <a  class ="ch-roll" data-char="{{c}}">{{localize ch.abrev}}</a>
             </div>
             {{/each}}
           <!-- </div> -->
           <!-- <div class="table-row"> -->
-            {{#each actor.data.characteristics as |ch c|}}
+            {{#each data.characteristics as |ch c|}}
             <div class="row-type table-data">
               <input type = "text" value = "?" readonly>
             </div>
@@ -33,12 +33,12 @@
       </div>
   </section>
 
-    
+
   <section id="tab-sections">
       <nav id="wfrp2e-primarytabs" class="sheet-tabs tabs" data-group="primary" ondragstart="return false;" ondrop="return false;">
         <a class="item active" data-tab="notes">{{localize "Notes"}}</a>
       </nav>
-      <section class="content">
+      <section class="content limited">
       <div class="tab notes save-scroll" data-tab="notes">
         <div class="limited-note-section biography">
           {{editor content=data.details.biography.value target="data.details.biography.value" button=true owner=owner editable=editable}}
@@ -46,13 +46,13 @@
       </div>
     </section>
   </section>
-  
+
 </form>
 
 <script>
   textContainer = document.querySelectorAll('.npc-sheet .window-title');
   length = textContainer.length;
-  
+
   for (i = 0; i < length; i++) {
 
     if (textContainer[i].innerHTML.includes("[Token]")) {
@@ -62,10 +62,10 @@
       }
       else {
       }
-    } 
+    }
     else {
     }
   }
 
-  // 
+  //
 </script>

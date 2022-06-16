@@ -1,0 +1,8 @@
+<div class="wfrp2e chat-card" data-actor-id="{{actorId}}" data-hide = {{hideData}}>
+
+    {{> systems/wfrp2e/templates/chat/roll/test-card.html}}
+
+    {{#if test.result.incomeResult}}
+    <b><a class = "money-drag" data-amt = "{{test.result.moneyEarned}}">{{test.result.incomeResult}}</a></b>
+    {{/if}}
+</div>

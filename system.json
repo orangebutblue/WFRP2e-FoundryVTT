@@ -1,56 +1,33 @@
 {
   "name": "wfrp2e",
-  "title": "Warhammer Fantasy Roleplay 2nd Edition",
-  "description": "A comprehensive system for running grim and perilious games of Warhammer Fantasy Role-play in the Foundry VTT environment.",
-  "version": "0.1",
-  "author": "CatoThe1stElder, Moo Man",
-  "scripts": [
-    "./scripts/config-wfrp2e.js",
-    "./scripts/dice-wfrp2e.js",
-    "./scripts/tables-wfrp2e.js",
-    "./scripts/utility-wfrp2e.js",
-    "./scripts/market-wfrp2e.js",
-    "./scripts/opposed-wfrp2e.js",
-    "./scripts/char-gen.js",
-    "./scripts/name-gen.js",
-    "./scripts/migrations.js",
-    "./scripts/wfrp-browser.js",
-    "./scripts/audio-wfrp2e.js",
-    "./scripts/bug-report.js",
-    "./scripts/actor/actor-wfrp2e.js",
-    "./scripts/actor/sheet/actor-sheet.js",
-    "./scripts/actor/sheet/character-sheet.js",
-    "./scripts/actor/sheet/creature-sheet.js",
-    "./scripts/actor/sheet/npc-sheet.js",
-    "./scripts/item/item-sheet.js",
-    "./scripts/item/item-wfrp2e.js",
-    "./scripts/hooks/canvasReady.js",
-    "./scripts/hooks/canvasInit.js",
-    "./scripts/hooks/chatMessage.js",
-    "./scripts/hooks/createOwnedItem.js",
-    "./scripts/hooks/preCreateActor.js",
-    "./scripts/hooks/preCreateOwnedItem.js",
-    "./scripts/hooks/renderTokenHUD.js",
-    "./scripts/hooks/deleteCombat.js",
-    "./scripts/hooks/getActorDirectoryEntryContext.js",
-    "./scripts/hooks/getCombatTrackerEntryContext.js",
-    "./scripts/hooks/getChatLogEntryContext.js",
-    "./scripts/hooks/getSceneControlButtons.js",
-    "./scripts/hooks/init.js",
-    "./scripts/hooks/ready.js",
-    "./scripts/hooks/renderChatLog.js",
-    "./scripts/hooks/renderChatMessage.js",
-    "./scripts/hooks/renderSidebarTab.js",
-    "./scripts/hooks/renderJournalSheet.js",
-    "./scripts/hooks/updateCombat.js",
-    "./scripts/hooks/createChatMessage.js",
-    "./scripts/hooks/hotbarDrop.js",
-    "./libs/pixi-filters.js",
-    "./pixi/aoe.js"
+  "title": "Warhammer Fantasy Roleplay 4th Edition",
+  "description": "A comprehensive system for running grim and perilous games of Warhammer Fantasy Roleplay in the Foundry VTT environment.",
+  "version": "0.1.1",
+  "author": "Moo Man, CatoThe1stElder",
+  "authors" : [
+    {
+      "name": "Moo Man",
+      "email": "russellthurman94@gmail.com",
+      "discord": "Moo Man#7518",
+      "reddit": "u/mooman10"
+    },
+    {
+      "name": "CatoThe1stElder",
+      "discord": "CatoThe1stElder#9725"
+    }
   ],
+  "esmodules" : ["wfrp2e.js"],
+  "scripts": ["./libs/pixi-filters.js"],
   "styles": ["./css/wfrp2e.css"],
   "packs": [
-  {
+    {
+      "name": "basic",
+      "label": "Basic Items",
+      "system": "wfrp2e",
+      "path": "./packs/basic.db",
+      "type": "Item"
+    },
+    {
       "name": "skills",
       "label": "Skills",
       "system": "wfrp2e",
@@ -59,7 +36,6 @@
       "entity": "Item",
       "tag" : "skill"
     },
-	
 	{
       "name": "talents",
       "label": "Talents",
@@ -69,7 +45,6 @@
       "entity": "Item",
       "tag" : "talents"
     },
-     
 	{
       "name": "weapons",
       "label": "Weapons",
@@ -78,8 +53,7 @@
       "path": "./packs/weapons.db",
       "entity": "Item",
       "tag" : "weapons"
-    }, 
-	
+    },
 	{
       "name": "armour",
       "label": "Armour",
@@ -89,7 +63,6 @@
       "entity": "Item",
       "tag" : "armour"
     },
-	
 	{
       "name": "clothing",
       "label": "Clothing",
@@ -99,7 +72,6 @@
       "entity": "Item",
       "tag" : "clothing"
     },
-	
 	{
       "name": "miscellanea",
       "label": "Miscellanea",
@@ -109,7 +81,6 @@
       "entity": "Item",
       "tag" : "miscellanea"
     },
-	
 	{
       "name": "tools",
       "label": "Tools",
@@ -119,7 +90,6 @@
       "entity": "Item",
       "tag" : "tools"
     },
-	
 	{
       "name": "disease",
       "label": "Disease",
@@ -129,7 +99,6 @@
       "entity": "Item",
       "tag" : "disease"
     },
-	
 	{
       "name": "special-equipment",
       "label": "Special Equipment",
@@ -139,7 +108,6 @@
       "entity": "Item",
       "tag" : "special-equipment"
     },
-	
 	{
       "name": "food-and-drink",
       "label": "Food and Drink",
@@ -149,9 +117,6 @@
       "entity": "Item",
       "tag" : "food-and-drink"
     },
-	
-	
-	
 	{
       "name": "petty-magic-hedge-spells",
       "label": "Petty Magic (Hedge) Spells",
@@ -161,7 +126,6 @@
       "entity": "Item",
       "tag" : "petty-magic-hedge-spells"
     },
-	
 	{
       "name": "petty-magic-divine-spells",
       "label": "Petty Magic (Divine) Spells",
@@ -171,7 +135,6 @@
       "entity": "Item",
       "tag" : "petty-magic-divine-spells"
     },
-	
 	{
       "name": "petty-magic-arcane-spells",
       "label": "Petty Magic (Arcane) Spells",
@@ -181,8 +144,6 @@
       "entity": "Item",
       "tag" : "petty-magic-arcane-spells"
     },
-	
-	
 	{
       "name": "lesser-magic-spells",
       "label": "Lesser Magic Spells",
@@ -192,8 +153,6 @@
       "entity": "Item",
       "tag" : "lesser-magic-spells"
     },
-	
-	
 	{
       "name": "divine-lore-verena-spells",
       "label": "Divine Lore (Verena) Spells",
@@ -203,7 +162,6 @@
       "entity": "Item",
       "tag" : "divine-lore-verena-spells"
     },
-	
 	{
       "name": "divine-lore-ulric-spells",
       "label": "Divine Lore (Ulric) Spells",
@@ -213,8 +171,6 @@
       "entity": "Item",
       "tag" : "divine-lore-ulric-spells"
     },
-	
-	
 	{
       "name": "divine-lore-taalrhya-spells",
       "label": "Divine Lore (Taal - Rhya) Spells",
@@ -224,8 +180,6 @@
       "entity": "Item",
       "tag" : "divine-lore-taalrhya-spells"
     },
-	
-	
 	{
       "name": "divine-lore-sigmar-spells",
       "label": "Divine Lore (Sigmar) Spells",
@@ -235,8 +189,6 @@
       "entity": "Item",
       "tag" : "divine-lore-sigmar-spells"
     },
-	
-	
 	{
       "name": "divine-lore-shallya-spells",
       "label": "Divine Lore (Shallya) Spells",
@@ -246,7 +198,6 @@
       "entity": "Item",
       "tag" : "divine-lore-shallya-spells"
     },
-	
 	{
       "name": "divine-lore-ranald-spells",
       "label": "Divine Lore (Ranald) Spells",
@@ -256,7 +207,6 @@
       "entity": "Item",
       "tag" : "divine-lore-ranald-spells"
     },
-	
 	{
       "name": "divine-lore-myrmidia-spells",
       "label": "Divine Lore (Myrmidia) Spells",
@@ -266,7 +216,6 @@
       "entity": "Item",
       "tag" : "divine-lore-myrmidia-spells"
     },
-	
 	{
       "name": "divine-lore-morr-spells",
       "label": "Divine Lore (Morr) Spells",
@@ -276,8 +225,6 @@
       "entity": "Item",
       "tag" : "divine-lore-morr-spells"
     },
-	
-	
 	{
       "name": "divine-lore-manann-spells",
       "label": "Divine Lore (Manann) Spells",
@@ -287,8 +234,6 @@
       "entity": "Item",
       "tag" : "divine-lore-manann-spells"
     },
-	
-	
 	{
       "name": "dark-lore-necromancy-spells",
       "label": "Dark Lore (Necromancy) Spells",
@@ -298,7 +243,6 @@
       "entity": "Item",
       "tag" : "dark-lore-necromancy-spells"
     },
-	
 	{
       "name": "dark-lore-chaos-spells",
       "label": "Dark Lore (Chaos) Spells",
@@ -308,7 +252,6 @@
       "entity": "Item",
       "tag" : "dark-lore-chaos-spells"
     },
-	
 	{
       "name": "arcane-lore-the-heavens-spells",
       "label": "Arcane Lore (The Heavens) Spells",
@@ -318,8 +261,6 @@
       "entity": "Item",
       "tag" : "arcane-lore-the-heavens-spells"
     },
-	
-	
 	{
       "name": "arcane-lore-shadow-spells",
       "label": "Arcane Lore (Shadow) Spells",
@@ -329,7 +270,7 @@
       "entity": "Item",
       "tag" : "arcane-lore-shadow-spells"
     }	,
-	
+
 	{
       "name": "arcane-lore-metal-spells",
       "label": "Arcane Lore (Metal) Spells",
@@ -339,9 +280,9 @@
       "entity": "Item",
       "tag" : "arcane-lore-metal-spells"
     },
-	
-	
-	
+
+
+
 	{
       "name": "arcane-lore-light-spells",
       "label": "Arcane Lore (Light) Spells",
@@ -350,8 +291,8 @@
       "path": "./packs/arcane-lore-light-spells.db",
       "entity": "Item",
       "tag" : "arcane-lore-light-spells"
-    },	
-	
+    },
+
 	{
       "name": "arcane-lore-life-spells",
       "label": "Arcane Lore (Life) Spells",
@@ -361,8 +302,8 @@
       "entity": "Item",
       "tag" : "arcane-lore-life-spells"
     },
-	
-	
+
+
 	{
       "name": "arcane-lore-fire-spells",
       "label": "Arcane Lore (Fire) Spells",
@@ -372,8 +313,6 @@
       "entity": "Item",
       "tag" : "arcane-lore-fire-spells"
     },
-	
-		
 	{
       "name": "arcane-lore-death-spells",
       "label": "Arcane Lore (Death) Spells",
@@ -383,7 +322,6 @@
       "entity": "Item",
       "tag" : "arcane-lore-death-spells"
     },
-	
 	{
       "name": "arcane-lore-beasts-spells",
       "label": "Arcane Lore (Beasts) Spells",
@@ -393,9 +331,6 @@
       "entity": "Item",
       "tag" : "arcane-lore-beasts-spells"
     },
-	
-	
-	
 	{
       "name": "lighting",
       "label": "Lighting",
@@ -405,7 +340,7 @@
       "entity": "Item",
       "tag" : "lighting"
     },
-	
+
 	{
       "name": "carrying-equipment",
       "label": "Carrying Equipment",
@@ -415,9 +350,6 @@
       "entity": "Item",
       "tag" : "carrying-equipment"
     },
-	
-	
-	 
 	{
       "name": "ammunition",
       "label": "Ammunition",
@@ -427,8 +359,6 @@
       "entity": "Item",
       "tag" : "ammunition"
     }
-	 
-		 
   ],
   "languages": [
     {
@@ -437,16 +367,24 @@
       "path": "lang/en.json"
     }
   ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://user-images.githubusercontent.com/28637157/97379891-e4a1cc00-1893-11eb-9e0c-d93b92844d5b.jpg"
+    }
+  ],
   "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
+  "background" : "./WFRP-Header.jpg",
   "gridDistance": 2,
   "gridUnits": "yd",
   "primaryTokenAttribute": "status.wounds",
   "secondaryTokenAttribute": "status.advantage",
-  "minimumCoreVersion" : "0.6.0",
-  "compatibleCoreVersion" : "0.6.5",
-  "templateVersion":2,
+  "minimumCoreVersion" : "9",
+  "compatibleCoreVersion" : "9",
+  "manifestPlusVersion": "1.0.0",
+  "templateVersion":3,
   "socket": true,
-  "manifest" :  "",
-  "download" :  "",
-  "url" : "https://github.com/moo-man/WFRP2e-FoundryVTT"
+  "manifest" :  "https://raw.githubusercontent.com/moo-man/wfrp2e-FoundryVTT/master/system.json",
+  "download" :  "https://github.com/moo-man/wfrp2e-FoundryVTT/releases/download/0.1.1/wfrp2e.zip",
+  "url" : "https://github.com/moo-man/wfrp2e-FoundryVTT"
 }

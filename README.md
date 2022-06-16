@@ -1,1 +1,1 @@
-WFRP2e Foundry conversion from WFRP4e
+WFRP2e Foundry conversion from WFRP2E

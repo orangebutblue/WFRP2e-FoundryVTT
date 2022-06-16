@@ -3,156 +3,155 @@
     "types": [
       "character",
       "npc",
-      "creature"
+      "creature",
+      "vehicle"
     ],
     "templates": {
       "characteristics": {
         "characteristics": {
-          "primary": {
-            "ws": {
-              "type": "number",
-              "label": "CHAR.WS",
-              "abrev": "CHARAbbrev.WS",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "bs": {
-              "type": "Number",
-              "label": "CHAR.BS",
-              "abrev": "CHARAbbrev.BS",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "s": {
-              "type": "Number",
-              "label": "CHAR.S",
-              "abrev": "CHARAbbrev.S",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "t": {
-              "type": "Number",
-              "label": "CHAR.T",
-              "abrev": "CHARAbbrev.T",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "ag": {
-              "type": "Number",
-              "label": "CHAR.Ag",
-              "abrev": "CHARAbbrev.Ag",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "int": {
-              "type": "Number",
-              "label": "CHAR.Int",
-              "abrev": "CHARAbbrev.Int",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "wp": {
-              "type": "Number",
-              "label": "CHAR.WP",
-              "abrev": "CHARAbbrev.WP",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            },
-            "fel": {
-              "type": "Number",
-              "label": "CHAR.Fel",
-              "abrev": "CHARAbbrev.Fel",
-              "initial": 20,
-              "modifier": 0,
-              "advances": 0
-            }
+          "ws": {
+            "type": "number",
+            "label": "CHAR.WS",
+            "abrev": "CHARAbbrev.WS",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
           },
-          "secondary": {
-            "attacks": {
-              "type": "number",
-              "label": "CHAR.Attacks",
-              "abrev": "CHARAbbrev.Attacks",
-              "initial": 0
-            },
-            "wounds": {
-              "type": "number",
-              "label": "CHAR.Wounds",
-              "abrev": "CHARAbbrev.Wounds",
-              "initial": 0
-            },
-            "sBonus": {
-              "type": "number",
-              "label": "CHAR.StrengthBonus",
-              "abrev": "CHARAbbrev.StrengthBonus",
-              "initial": 0
-            },
-            "tBonus": {
-              "type": "number",
-              "label": "CHAR.ToughBonus",
-              "abrev": "CHARAbbrev.ToughBonus",
-              "initial": 0
-            },
-            "movement": {
-              "type": "number",
-              "label": "CHAR.Movement",
-              "abrev": "CHARAbbrev.Movement",
-              "initial": 0
-            },
-            "magic": {
-              "type": "number",
-              "label": "CHAR.Magic",
-              "abrev": "CHARAbbrev.Magic",
-              "initial": 0
-            },
-            "insanity": {
-              "type": "number",
-              "label": "CHAR.Insanity",
-              "abrev": "CHARAbbrev.Insanity",
-              "initial": 0
-            },
-            "fate": {
-              "type": "number",
-              "label": "CHAR.Fate",
-              "abrev": "CHARAbbrev.Fate",
-              "initial": 0
-            }
+          "bs": {
+            "type": "Number",
+            "label": "CHAR.BS",
+            "abrev": "CHARAbbrev.BS",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "s": {
+            "type": "Number",
+            "label": "CHAR.S",
+            "abrev": "CHARAbbrev.S",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "t": {
+            "type": "Number",
+            "label": "CHAR.T",
+            "abrev": "CHARAbbrev.T",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "i": {
+            "type": "Number",
+            "label": "CHAR.I",
+            "abrev": "CHARAbbrev.I",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "ag": {
+            "type": "Number",
+            "label": "CHAR.Ag",
+            "abrev": "CHARAbbrev.Ag",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "dex": {
+            "type": "Number",
+            "label": "CHAR.Dex",
+            "abrev": "CHARAbbrev.Dex",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "int": {
+            "type": "Number",
+            "label": "CHAR.Int",
+            "abrev": "CHARAbbrev.Int",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "wp": {
+            "type": "Number",
+            "label": "CHAR.WP",
+            "abrev": "CHARAbbrev.WP",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
+          },
+          "fel": {
+            "type": "Number",
+            "label": "CHAR.Fel",
+            "abrev": "CHARAbbrev.Fel",
+            "initial": 20,
+            "modifier": 0,
+            "advances": 0,
+            "calculationBonusModifier": 0
           }
         }
       },
       "status": {
-        "criticalWounds": {
-          "type": "Number",
-          "label": "Critical Wounds",
-          "value": 0,
-          "max": 2
-        },
-        "sin": {
-          "type": "Number",
-          "label": "Sin",
-          "value": 0
-        },
-        "penalties": {
-          "type": "String",
-          "label": "Penalties",
-          "value": ""
-        },
-        "corruption": {
-          "type": "Number",
-          "label": "Corruption",
-          "value": 0
-        },
-        "encumbrance": {
-          "type": "Number",
-          "label": "Encumbrance",
-          "max": 0,
-          "current": 0
+        "status": {
+          "wounds": {
+            "type": "Number",
+            "label": "Wounds",
+            "abrev": "W",
+            "value": 8,
+            "max": 8
+          },
+          "advantage": {
+            "type": "Number",
+            "label": "Advantage",
+            "value": 0,
+            "max": 10
+          },
+          "criticalWounds": {
+            "type": "Number",
+            "label": "Critical Wounds",
+            "value": 0,
+            "max": 2
+          },
+          "sin": {
+            "type": "Number",
+            "label": "Sin",
+            "value": 0
+          },
+          "penalties": {
+            "type": "String",
+            "label": "Penalties",
+            "value": ""
+          },
+          "corruption": {
+            "type": "Number",
+            "label": "Corruption",
+            "value": 0
+          },
+          "encumbrance": {
+            "type": "Number",
+            "label": "Encumbrance",
+            "max": 0,
+            "current": 0
+          },
+          "mount" : {
+            "id" : "",
+            "mounted" : false,
+            "isToken" : false,
+            "tokenData" : {
+              "scene" : "",
+              "token" : ""
+            }
+          }
         }
       },
       "details": {
@@ -160,11 +159,22 @@
           "species": {
             "type": "String",
             "label": "Species",
-            "value": ""
+            "value": "",
+            "subspecies" : ""
           },
           "gender": {
             "type": "String",
             "label": "Gender",
+            "value": ""
+          },
+          "biography": {
+            "type": "String",
+            "label": "Biography",
+            "value": ""
+          },
+          "gmnotes": {
+            "type": "String",
+            "label": "GM Notes",
             "value": ""
           },
           "size": {
@@ -172,10 +182,29 @@
             "label": "Size",
             "value": "avg"
           },
+          "move": {
+            "type": "Number",
+            "label": "Movement",
+            "value": 4,
+            "walk": 0,
+            "run": 0
+          },
           "god": {
             "type": "String",
             "label": "God",
             "value": ""
+          },
+          "status": {
+            "type": "String",
+            "value": "",
+            "standing": "",
+            "tier": 0,
+            "modifier" : 0
+          },
+          "hitLocationTable": {
+            "value": "hitloc",
+            "type": "String",
+            "label": "Hit Location Table"
           }
         }
       }
@@ -186,21 +215,48 @@
         "status",
         "details"
       ],
+      "status": {
+        "fate": {
+          "type": "Number",
+          "label": "Fate",
+          "value": 0
+        },
+        "fortune": {
+          "type": "Number",
+          "label": "Fortune",
+          "value": 0
+        },
+        "resilience": {
+          "type": "Number",
+          "label": "Resilience",
+          "value": 0
+        },
+        "resolve": {
+          "type": "Number",
+          "label": "Resolve",
+          "value": 0
+        }
+      },
       "details": {
         "experience": {
           "type": "Number",
           "label": "Experience",
           "total": 0,
-          "spent": 0
+          "spent": 0,
+          "log" : []
         },
-        "biography": {
-          "type": "String",
-          "label": "Biography",
-          "value": ""
+        "personal-ambitions": {
+          "short-term": "",
+          "long-term": ""
         },
-        "gmnotes": {
+        "party-ambitions": {
+          "name": "",
+          "short-term": "",
+          "long-term": ""
+        },
+        "motivation": {
           "type": "String",
-          "label": "GM Notes",
+          "label": "Motivation",
           "value": ""
         },
         "class": {
@@ -213,11 +269,10 @@
           "label": "Career",
           "value": ""
         },
-        "status": {
+        "careerlevel": {
           "type": "String",
-          "value": "",
-          "standing": "",
-          "tier": 0
+          "label": "Career Level",
+          "value": ""
         },
         "age": {
           "type": "String",
@@ -270,6 +325,93 @@
         "details"
       ],
       "excludedTraits": []
+    },
+    "vehicle": {
+      "characteristics": {
+        "t": {
+          "type": "Number",
+          "label": "CHAR.T",
+          "abrev": "CHARAbbrev.T",
+          "initial": 20,
+          "modifier": 0,
+          "advances": 0
+        }
+      },
+      "status" : {
+        "wounds": {
+          "type": "Number",
+          "label": "Wounds",
+          "abrev": "W",
+          "value": 8,
+          "max": 8
+        },
+        "criticalWounds": {
+          "type": "Number",
+          "label": "Critical Wounds",
+          "value": 0,
+          "max": 2
+        },
+        "carries": {
+          "type": "Number",
+          "label": "Carries",
+          "current": 0,
+          "max": 10
+        },
+        "encumbrance": {
+          "type": "Number",
+          "label": "Encumbrance",
+          "initial" : 0,
+          "current": 0
+        }
+      },
+      "details" : {
+        "vehicletype" : {
+          "label": "Vehicle Type",
+          "value": ""
+        },
+        "move": {
+          "type": "Number",
+          "label": "Movement",
+          "value": 0
+        },
+        "length": {
+          "type": "Number",
+          "label": "Length",
+          "value": 0
+        },
+        "hitLocationTable": {
+          "value": "hitloc",
+          "type": "String",
+          "label": "Hit Location Table"
+        },
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "GM Description",
+          "value": ""
+        },
+        "price": {
+          "type": "String",
+          "label": "Price",
+          "gc": 0
+        },
+        "availability": {
+          "type": "String",
+          "label": "Availability",
+          "value": ""
+        },
+        "motivePower": {
+          "type": "String",
+          "label": "Motive Power",
+          "value": ""
+        }
+      },
+      "passengers" : [],
+      "roles" : []
     }
   },
   "Item": {
@@ -290,7 +432,10 @@
       "skill",
       "spell",
       "trait",
-      "weapon"
+      "weapon",
+      "extendedTest",
+      "vehicleMod",
+      "cargo"
     ],
     "templates": {
       "quantity": {
@@ -341,7 +486,14 @@
           "label": "Location",
           "value": 0
         }
-      }
+      },
+      "damageToItem" : {
+        "damageToItem" : {
+          "type" : "Number",
+          "value" : 0,
+          "shield" : 0
+        }
+      } 
     },
     "career": {
       "templates": [
@@ -387,7 +539,8 @@
         "encumbrance",
         "price",
         "availability",
-        "location"
+        "location",
+        "damageToItem"
       ],
       "availability": {
         "type": "String",
@@ -397,19 +550,28 @@
       "damage": {
         "type": "String",
         "label": "Damage",
+        "dice": "",
+        "value": ""
+      },
+      "reach": {
+        "type": "String",
+        "label": "Reach",
         "value": ""
       },
       "range": {
         "type": "String",
         "label": "Range",
-        "short": 0,
-        "long": 0
+        "value": ""
       },
-      "reload": {
+      "skill": {
         "type": "String",
-        "label": "Reload",
-        "num": 0,
-        "action": ""
+        "label": "Skill Override",
+        "value": ""
+      },
+      "modeOverride": {
+        "type": "String",
+        "label": "Mode Override",
+        "value": ""
       },
       "twohanded": {
         "type": "Boolean",
@@ -425,22 +587,36 @@
         "type": "Number",
         "value": 0
       },
+      "consumesAmmo" : {
+        "value" : true
+      },
       "weaponGroup": {
         "type": "String",
         "label": "Weapon Group",
         "value": "basic"
       },
       "qualities": {
-        "type": "String",
         "label": "Qualities",
-        "value": ""
+        "value": []
+      },
+      "flaws": {
+        "label": "Flaws",
+        "value": []
       },
       "special": {
         "type": "String",
         "label": "Special",
         "value": ""
       },
-      "equipped": false
+      "equipped": false,
+      "loaded": {
+        "value" : false,
+        "repeater" : false,
+        "amt" : 0
+      },
+      "offhand": {
+        "value": false
+      }
     },
     "armour": {
       "templates": [
@@ -449,7 +625,8 @@
         "encumbrance",
         "price",
         "availability",
-        "location"
+        "location",
+        "damageToItem"
       ],
       "worn": {
         "type": "Boolean",
@@ -469,12 +646,12 @@
       "qualities": {
         "type": "String",
         "label": "Qualities",
-        "value": ""
+        "value": []
       },
       "flaws": {
         "type": "String",
         "label": "Flaws",
-        "value": ""
+        "value": []
       },
       "special": {
         "type": "String",
@@ -525,17 +702,18 @@
       "damage": {
         "type": "String",
         "label": "Damage",
+        "dice": "",
         "value": ""
       },
       "qualities": {
         "type": "String",
         "label": "Qualities",
-        "value": ""
+        "value": []
       },
       "flaws": {
         "type": "String",
         "label": "Flaws",
-        "value": ""
+        "value": []
       },
       "special": {
         "type": "String",
@@ -596,20 +774,41 @@
         "type": "Number",
         "label": "Location",
         "value": 0
+      },
+      "qualities": {
+        "label": "Qualities",
+        "value": []
+      },
+      "flaws": {
+        "label": "Flaws",
+        "value": []
       }
     },
     "talent": {
       "templates": [
         "description"
       ],
-      "bonus" : {
-        "value" : 0,
-        "display" : "",
-        "target" : "",
-        "constant" : false
+      "max": {
+        "type": "String",
+        "label": "Max Advances",
+        "value": "1"
       },
-      "bonuses" :[],
-      "relatedSkills" : []
+      "advances": {
+        "type": "Number",
+        "label": "Advances",
+        "value": 1,
+        "force" : false
+      },
+      "career": {
+        "value": "",
+        "type": "String",
+        "label": "Career"
+      },
+      "tests": {
+        "type": "String",
+        "label": "Tests",
+        "value": null
+      }
     },
     "skill": {
       "templates": [
@@ -620,7 +819,7 @@
         "type": "String"
       },
       "grouped": {
-        "value": "",
+        "value": "noSpec",
         "type": "String"
       },
       "characteristic": {
@@ -629,6 +828,13 @@
         "value": "ws"
       },
       "advances": {
+        "type": "Number",
+        "label": "Advances",
+        "value": 0,
+        "costModifier": 0,
+        "force" : false
+      },
+      "modifier": {
         "type": "Number",
         "label": "Advances",
         "value": 0
@@ -645,50 +851,91 @@
       "lore": {
         "type": "String",
         "label": "Lore",
-        "value": ""
+        "value": "",
+        "effect": ""
       },
       "range": {
         "type": "String",
         "label": "Range",
         "value": ""
       },
+      "target": {
+        "type": "String",
+        "label": "Target",
+        "value": "",
+        "aoe": false
+      },
+      "duration": {
+        "type": "String",
+        "label": "Duration",
+        "value": "",
+        "extendable": false
+      },
       "damage": {
         "type": "String",
         "label": "Damage",
+        "dice": "",
         "value": ""
       },
       "cn": {
         "type": "Number",
         "label": "Casting Number",
-        "value": 0
-      },
-      "time": {
-        "type": "String",
-        "label": "Casting Time",
-        "value": ""
+        "value": 0,
+        "SL": 0
       },
       "magicMissile": {
         "type": "Boolean",
         "label": "Magic Missile",
         "value": false
       },
-      "ingredient": {
-        "type": "String",
-        "label": "Ingredient",
-        "value": "",
-        "bonus": 0
+      "memorized": {
+        "type": "Boolean",
+        "label": "Memorized",
+        "value": false
       },
-      "template": {
+      "skill" : {
+        "value" : ""
+      },
+      "ingredients": [],
+      "currentIng": {
+        "type": "Number",
+        "label": "Ingredient",
         "value": ""
+      },
+      "wind": {
+        "value": ""
+      },
+      "overcast" : {
+        "enabled" : false,
+        "label" : "",
+        "valuePerOvercast" : {
+          "type" : "",
+          "value" : 1,
+          "SL" : false,
+          "characteristic" : "",
+          "bonus" : false
+        },
+        "initial" : {
+          "type" : "",
+          "value" : 1,
+          "SL" : false,
+          "characteristic" : "",
+          "bonus" : false
+        } 
       }
     },
     "prayer": {
       "templates": [
         "description"
       ],
-      "lore": {
+      "type": {
         "type": "String",
-        "label": "Lore",
+        "label": "Type",
+        "value": ""
+      },
+      "god": {
+        "type": "String",
+        "label": "God",
         "value": ""
       },
       "range": {
@@ -696,34 +943,43 @@
         "label": "Range",
         "value": ""
       },
+      "duration": {
+        "type": "String",
+        "label": "Duration",
+        "value": ""
+      },
+      "target": {
+        "type": "String",
+        "label": "Target",
+        "value": "",
+        "aoe": false
+      },
       "damage": {
         "type": "String",
         "label": "Damage",
-        "value": ""
-      },
-      "cn": {
-        "type": "Number",
-        "label": "Casting Number",
-        "value": 0
-      },
-      "time": {
-        "type": "String",
-        "label": "Casting Time",
-        "value": ""
-      },
-      "magicMissile": {
-        "type": "Boolean",
-        "label": "Magic Missile",
-        "value": false
-      },
-      "ingredient": {
-        "type": "String",
-        "label": "Ingredient",
+        "dice": "",
         "value": "",
-        "bonus": 0
+        "addSL" : false
       },
-      "template": {
-        "value": ""
+      "overcast" : {
+        "enabled" : false,
+        "label" : "",
+        "valuePerOvercast" : {
+          "type" : "",
+          "value" : 1,
+          "SL" : false,
+          "additional" : "",
+          "characteristic" : "",
+          "bonus" : false
+        },
+        "initial" : {
+          "type" : "",
+          "value" : 1,
+          "SL" : false,
+          "additional" : "",
+          "characteristic" : "",
+          "bonus" : false
+        } 
       }
     },
     "mutation": {
@@ -733,7 +989,7 @@
       "mutationType": {
         "label": "Type",
         "type": "String",
-        "value": ""
+        "value": "physical"
       },
       "modifier": {
         "value": "",
@@ -763,7 +1019,9 @@
       "duration": {
         "label": "Duration",
         "value": "",
-        "type": "String"
+        "type": "String",
+        "active" : false,
+        "permanent" : false
       }
     },
     "critical": {
@@ -790,13 +1048,31 @@
       "templates": [
         "description"
       ],
-      "duration": {
-        "label": "Duration",
+      "contraction": {
+        "label": "Contraction",
         "value": "",
         "type": "String"
       },
-      "effects": {
-        "label": "Effects",
+      "incubation": {
+        "label": "Incubation",
+        "value": "",
+        "unit": "days",
+        "type": "String"
+      },
+      "duration": {
+        "label": "Duration",
+        "value": "",
+        "type": "String",
+        "unit": "days",
+        "active" : false
+      },
+      "symptoms": {
+        "label": "Symptoms",
+        "value": "",
+        "type": "String"
+      },
+      "permanent": {
+        "label": "Permanent",
         "value": "",
         "type": "String"
       }
@@ -812,11 +1088,16 @@
       ],
       "rollable": {
         "value": false,
+        "damage" : false,
+        "skill" : "",
         "label": "Rollable",
         "type": "Boolean",
         "rollCharacteristic": "",
         "bonusCharacteristic": "",
-        "defaultDifficulty": "challenging"
+        "dice": "",
+        "defaultDifficulty": "challenging",
+        "SL": true,
+        "attackType": "melee"
       },
       "specification": {
         "value": "",
@@ -835,6 +1116,60 @@
         "label": "Value (in d)",
         "type": "Number",
         "value": 1
+      }
+    },
+    "extendedTest": {
+      "templates": [
+        "description"
+      ],
+      "SL": {
+        "current": 0,
+        "target": 1
+      },
+      "test": {
+        "value": ""
+      },
+      "negativePossible": {
+        "value": false
+      },
+      "failingDecreases": {
+        "value": true
+      },
+      "completion" : {
+        "value" : "none"
+      },
+      "hide" : {
+        "test" : false,
+        "progress" : false
+      }
+    },
+    "cargo" : {
+      "templates" : [
+        "description",
+        "price",
+        "encumbrance"
+      ],
+      "cargoType" : {
+        "value" : ""
+      },
+      "unitPrice" : {
+        "value" : 0
+      },
+      "origin" : {
+        "value" : ""
+      },
+      "quality" : {
+        "value" : "average"
+      }
+    },
+    "vehicleMod" : {
+      "templates" : [
+        "description",
+        "price",
+        "encumbrance"
+      ],
+      "modType" : {
+        "value" : ""
       }
     }
   }

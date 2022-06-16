@@ -4,8 +4,8 @@
 <p>{{localize "CHARGEN.AttrInstructions1"}} <b><a class = "chargen-button-nostyle" data-button = "rerollAttributes" data-species="{{speciesKey}}" data-exp="{{exp}}">{{localize "Reroll"}}</a></b> {{localize "CHARGEN.AttrInstructions2"}}</p>
 
 {{#each characteristics as |characteristic key|}}
-<div>
-  <b>{{key}}</b>: {{characteristic}}
+<div title="{{characteristic.formula}}">
+  <b>{{key}}</b>: {{characteristic.value}}
 </div>
 {{/each}}
 
@@ -18,7 +18,7 @@
 
 <span class = "attribute-career-buttons">
   <a class = 'chargen-button' data-button = 'rollSpeciesSkillsTalents' data-species="{{speciesKey}}">{{localize "Skills"}}/{{localize "Talents"}}</a>
-  <a class = 'chargen-button' data-button = 'rollCareer' data-species="{{speciesKey}}" title = '+50 XP'>{{localize "Career"}}</a>
+  <a class = 'chargen-button' data-button = 'rollCareer' data-species="{{speciesKey}}" title = '+50 {{localize "XP"}}'>{{localize "Career"}}</a>
   <a class = 'chargen-button' data-button = 'rollDetails' data-species="{{speciesKey}}">{{localize "Details"}}</a>
 </span>
 
