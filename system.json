@@ -2,7 +2,7 @@
   "id": "wfrp2e",
   "title": "Warhammer Fantasy Roleplay 2nd Edition",
   "description": "wfrp2e test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors" : [
     {
       "name": "OrangeButBlue",
@@ -380,6 +380,6 @@
   },
   "socket": true,
   "manifest" :  "https://raw.githubusercontent.com/orangebutblue/WFRP2e-FoundryVTT/master/system.json",
-  "download" :  "https://github.com/orangebutblue/WFRP2e-FoundryVTT/archive/refs/tags/0.0.2.zip",
+  "download" :  "https://github.com/orangebutblue/WFRP2e-FoundryVTT/archive/refs/tags/0.0.5.zip",
   "url" : "https://github.com/orangebutblue/WFRP2e-FoundryVTT"
 }
