@@ -2,7 +2,7 @@
   "id": "wfrp2e",
   "title": "Warhammer Fantasy Roleplay 2nd Edition",
   "description": "wfrp2e test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors" : [
     {
       "name": "OrangeButBlue",
@@ -10,8 +10,8 @@
       "flags": {}
     }
   ],
-  "esmodules" : ["wfrp2e.js"],
-  "scripts": ["./libs/pixi-filters.js"],
+  "esmodules" : [],
+  "scripts": ["wfrp2e.js", "./libs/pixi-filters.js"],
   "styles": ["./css/wfrp2e.css"],
   "packs": [
     {
