@@ -2,8 +2,7 @@
   "id": "wfrp2e",
   "title": "Warhammer Fantasy Roleplay 2nd Edition",
   "description": "wfrp2e test",
-  "version": "0.1.1",
-  "author": "OrangeButBlue",
+  "version": "0.0.2",
   "authors" : [
     {
       "name": "OrangeButBlue",
@@ -28,7 +27,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/skills.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "skill"
     },
 	{
@@ -37,7 +36,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/talents.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "talents"
     },
 	{
@@ -46,7 +45,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/weapons.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "weapons"
     },
 	{
@@ -55,7 +54,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/armour.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "armour"
     },
 	{
@@ -64,7 +63,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/clothing.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "clothing"
     },
 	{
@@ -73,7 +72,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/miscellanea.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "miscellanea"
     },
 	{
@@ -82,7 +81,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/tools.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "tools"
     },
 	{
@@ -91,7 +90,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/disease.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "disease"
     },
 	{
@@ -100,7 +99,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/special-equipment.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "special-equipment"
     },
 	{
@@ -109,7 +108,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/food-and-drink.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "food-and-drink"
     },
 	{
@@ -118,7 +117,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/petty-magic-hedge-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "petty-magic-hedge-spells"
     },
 	{
@@ -127,7 +126,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/petty-magic-divine-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "petty-magic-divine-spells"
     },
 	{
@@ -136,7 +135,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/petty-magic-arcane-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "petty-magic-arcane-spells"
     },
 	{
@@ -145,7 +144,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/lesser-magic-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "lesser-magic-spells"
     },
 	{
@@ -154,7 +153,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-verena-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-verena-spells"
     },
 	{
@@ -163,7 +162,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-ulric-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-ulric-spells"
     },
 	{
@@ -172,7 +171,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-taalrhya-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-taalrhya-spells"
     },
 	{
@@ -181,7 +180,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-sigmar-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-sigmar-spells"
     },
 	{
@@ -190,7 +189,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-shallya-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-shallya-spells"
     },
 	{
@@ -199,7 +198,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-ranald-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-ranald-spells"
     },
 	{
@@ -208,7 +207,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-myrmidia-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-myrmidia-spells"
     },
 	{
@@ -217,7 +216,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-morr-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-morr-spells"
     },
 	{
@@ -226,7 +225,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/divine-lore-manann-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "divine-lore-manann-spells"
     },
 	{
@@ -235,7 +234,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/dark-lore-necromancy-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "dark-lore-necromancy-spells"
     },
 	{
@@ -244,7 +243,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/dark-lore-chaos-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "dark-lore-chaos-spells"
     },
 	{
@@ -253,7 +252,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-the-heavens-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-the-heavens-spells"
     },
 	{
@@ -262,7 +261,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-shadow-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-shadow-spells"
     }	,
 
@@ -272,7 +271,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-metal-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-metal-spells"
     },
 
@@ -284,7 +283,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-light-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-light-spells"
     },
 
@@ -294,7 +293,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-life-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-life-spells"
     },
 
@@ -305,7 +304,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-fire-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-fire-spells"
     },
 	{
@@ -314,7 +313,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-death-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-death-spells"
     },
 	{
@@ -323,7 +322,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/arcane-lore-beasts-spells.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "arcane-lore-beasts-spells"
     },
 	{
@@ -332,7 +331,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/lighting.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "lighting"
     },
 
@@ -342,7 +341,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/carrying-equipment.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "carrying-equipment"
     },
 	{
@@ -351,7 +350,7 @@
       "system": "wfrp2e",
       "module": "wfrp2e",
       "path": "./packs/ammunition.db",
-      "entity": "Item",
+      "type": "Item",
       "tag" : "ammunition"
     }
   ],
@@ -381,6 +380,6 @@
   },
   "socket": true,
   "manifest" :  "https://raw.githubusercontent.com/orangebutblue/WFRP2e-FoundryVTT/master/system.json",
-  "download" :  "https://github.com/orangebutblue/WFRP2e-FoundryVTT/archive/refs/tags/testing.zip",
+  "download" :  "https://github.com/orangebutblue/WFRP2e-FoundryVTT/archive/refs/tags/0.0.2.zip",
   "url" : "https://github.com/orangebutblue/WFRP2e-FoundryVTT"
 }
