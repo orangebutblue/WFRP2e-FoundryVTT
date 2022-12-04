@@ -1,19 +1,13 @@
 {
   "name": "wfrp2e",
-  "title": "Warhammer Fantasy Roleplay 4th Edition",
-  "description": "A comprehensive system for running grim and perilous games of Warhammer Fantasy Roleplay in the Foundry VTT environment.",
+  "title": "Warhammer Fantasy Roleplay 2nd Edition",
+  "description": "wfrp2e test",
   "version": "0.1.1",
-  "author": "Moo Man, CatoThe1stElder",
+  "author": "OrangeButBlue",
   "authors" : [
     {
-      "name": "Moo Man",
-      "email": "russellthurman94@gmail.com",
-      "discord": "Moo Man#7518",
-      "reddit": "u/mooman10"
-    },
-    {
-      "name": "CatoThe1stElder",
-      "discord": "CatoThe1stElder#9725"
+      "name": "OrangeButBlue Man",
+      "discord": "Tundra#6703",
     }
   ],
   "esmodules" : ["wfrp2e.js"],
@@ -370,7 +364,7 @@
   "media": [
     {
       "type": "cover",
-      "url": "https://user-images.githubusercontent.com/28637157/97379891-e4a1cc00-1893-11eb-9e0c-d93b92844d5b.jpg"
+      "url": "https://www.orderofgamers.com/wordpress/wp-content/uploads/2013/04/wfrp2ndedition.jpg"
     }
   ],
   "initiative": "@characteristics.i.value + @characteristics.ag.value/100",
@@ -384,7 +378,7 @@
   "manifestPlusVersion": "1.0.0",
   "templateVersion":3,
   "socket": true,
-  "manifest" :  "https://raw.githubusercontent.com/moo-man/wfrp2e-FoundryVTT/master/system.json",
-  "download" :  "https://github.com/moo-man/wfrp2e-FoundryVTT/releases/download/0.1.1/wfrp2e.zip",
-  "url" : "https://github.com/moo-man/wfrp2e-FoundryVTT"
+  "manifest" :  "https://raw.githubusercontent.com/orangebutblue/WFRP2e-FoundryVTT/master/system.json",
+  "download" :  "https://github.com/orangebutblue/WFRP2e-FoundryVTT/archive/refs/tags/testing.zip",
+  "url" : "https://github.com/orangebutblue/WFRP2e-FoundryVTT"
 }
