@@ -1,13 +1,14 @@
 {
-  "name": "wfrp2e",
+  "id": "wfrp2e",
   "title": "Warhammer Fantasy Roleplay 2nd Edition",
   "description": "wfrp2e test",
   "version": "0.1.1",
   "author": "OrangeButBlue",
   "authors" : [
     {
-      "name": "OrangeButBlue Man",
+      "name": "OrangeButBlue",
       "discord": "Tundra#6703",
+      "flags": {}
     }
   ],
   "esmodules" : ["wfrp2e.js"],
@@ -373,10 +374,11 @@
   "gridUnits": "yd",
   "primaryTokenAttribute": "status.wounds",
   "secondaryTokenAttribute": "status.advantage",
-  "minimumCoreVersion" : "9",
-  "compatibleCoreVersion" : "9",
-  "manifestPlusVersion": "1.0.0",
-  "templateVersion":3,
+  "compatibility": {
+    "minimum": "10.291",
+    "verified": "10.291",
+    "maximum": "10"
+  },
   "socket": true,
   "manifest" :  "https://raw.githubusercontent.com/orangebutblue/WFRP2e-FoundryVTT/master/system.json",
   "download" :  "https://github.com/orangebutblue/WFRP2e-FoundryVTT/archive/refs/tags/testing.zip",
